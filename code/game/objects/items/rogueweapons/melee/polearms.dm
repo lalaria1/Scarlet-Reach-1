@@ -10,11 +10,11 @@
 	clickcd = CLICK_CD_CHARGED
 	warnie = "mobwarning"
 	hitsound = list('sound/combat/hits/bladed/genstab (1).ogg', 'sound/combat/hits/bladed/genstab (2).ogg', 'sound/combat/hits/bladed/genstab (3).ogg')
-	penfactor = 50
+	penfactor = 30
 	item_d_type = "stab"
 
 /datum/intent/spear/thrust/militia
-	penfactor = 40
+	penfactor = 30
 
 /datum/intent/spear/bash
 	name = "bash"
@@ -214,7 +214,7 @@
 	pixel_x = -16
 	inhand_x_dimension = 64
 	inhand_y_dimension = 64
-	wdefense = 10
+	wdefense = 8
 	bigboy = TRUE
 	gripsprite = TRUE
 	associated_skill = /datum/skill/combat/polearms
@@ -337,7 +337,7 @@
 	force = 15
 	force_wielded = 25
 	minstr = 11
-	wdefense = 6
+	wdefense = 5
 	resistance_flags = FIRE_PROOF	//It's meant to be smacked by a "lamptern", and is special enough to warrant overriding the spear weakness
 	is_silver = TRUE
 	smeltresult = /obj/item/ingot/silver
@@ -403,7 +403,7 @@
 	smeltresult = /obj/item/ingot/steel
 	max_blade_int = 200
 	minstr = 8
-	wdefense = 6
+	wdefense = 4
 	throwforce = 15
 
 /obj/item/rogueweapon/spear/improvisedbillhook
@@ -698,7 +698,7 @@
 	smeltresult = /obj/item/ingot/steel
 	associated_skill = /datum/skill/combat/polearms
 	walking_stick = TRUE
-	wdefense = 6
+	wdefense = 4
 	pickup_sound = 'modular_helmsguard/sound/sheath_sounds/draw_polearm.ogg'
 	sheathe_sound = 'sound/foley/equip/swordlarge1.ogg'
 
@@ -784,7 +784,7 @@
 	force = 10
 	force_wielded = 25
 	minstr = 11
-	wdefense = 7
+	wdefense = 5
 	is_silver = TRUE
 	smeltresult = /obj/item/ingot/silver
 
@@ -881,11 +881,11 @@
 	sellprice = 40
 
 /datum/intent/spear/thrust/eaglebeak
-	penfactor = 50
+	penfactor = 30
 	damfactor = 1
 
 /datum/intent/spear/thrust/glaive
-	penfactor = 50
+	penfactor = 30
 	damfactor = 1.1
 	chargetime = 0
 
@@ -1005,7 +1005,7 @@
 	force = 24
 	force_wielded = 30
 	minstr = 8
-	wdefense = 6
+	wdefense = 4
 	wdefense_wbonus = 1 //Only +1 defense from wielding
 	max_blade_int = 150 //Thin blade
 	wbalance = WBALANCE_SWIFT
@@ -1311,7 +1311,7 @@
 	icon = 'icons/roguetown/weapons/64.dmi'
 	minstr = 10
 	max_blade_int = 200
-	wdefense = 6
+	wdefense = 4
 	throwforce = 12	//Not a throwing weapon. Too heavy!
 	icon_angle_wielded = 50
 
@@ -1332,7 +1332,7 @@
 	icon_state = "boarspear"
 	force =  22 // 10% base damage increase
 	force_wielded = 33 // 10% base damage increase
-	wdefense = 6 // A little bit extra
+	wdefense = 4 // A little bit extra
 	max_blade_int = 200 // 50% more sharpness but it barely matter lol
 
 /obj/item/rogueweapon/spear/boar/kazengun
